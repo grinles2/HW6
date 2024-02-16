@@ -7,10 +7,26 @@ def divider(a, b):
         raise IndexError
     return a / b
 
-
-data = {10: 2, 2: 5, "123": 4, 18: 0, []: 15, 8: 4}
-for key in data:
-    res = divider(key, data["123"])
-    result.append(res)
-
+while True:
+    try:
+        data = {10: 2, 2: 5, "123": 4, 18: 0, []: 15, 8: 4}
+    for key in data:
+        res = divider(key, data[123])
+        result.append(res)
 print(result)
+    except TypeError as te:
+        data = {10: 2, 2: 5, "123": 4, 18: 0, [None]: 15, 8: 4}
+    for key in data:
+        res = divider(key, data[123])
+        result.append(res)
+print(result)
+    except SyntaxError as se:
+        data = {10: 2, 2: 5, "123": 4, 18: 0, [None]: 15, 8: 4}
+    for key in data:
+        res = divider(key, data[123])
+        result.append(res)
+print(result)
+    else:
+        print("ELSE")
+    finally:
+        print("FINALLY")
