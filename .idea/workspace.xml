@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="351b5521-d328-403e-ae62-11f9cacaeef7" name="Changes" comment="6th-HW">
-      <change afterPath="$PROJECT_DIR$/debug.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debug1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debug2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.debug.executor": "Run",
+    "Python.debug1.executor": "Run",
     "Python.main.executor": "Run",
     "Python.zip.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -87,10 +89,19 @@
       <option name="project" value="LOCAL" />
       <updated>1707821309361</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="6th-HW">
+      <option name="closed" value="true" />
+      <created>1708104117541</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708104117541</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="6-8 HW" />
     <MESSAGE value="6th-HW" />
     <option name="LAST_COMMIT_MESSAGE" value="6th-HW" />
   </component>
